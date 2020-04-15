@@ -1,0 +1,24 @@
+INFO  [main]:15 Apr 2020 12:22:51,195 Steps.java(28)  - Inside Before Hook
+INFO  [main]:15 Apr 2020 12:22:51,206 PropertiesReaderUtil.java(19)  - Reading properties from properties file into system properties
+INFO  [main]:15 Apr 2020 12:22:51,207 TestBase.java(38)  - Driver To Be Instantiated :CHROME
+INFO  [main]:15 Apr 2020 12:22:57,449 TestBase.java(63)  - Web Driver instantiated 
+INFO  [main]:15 Apr 2020 12:22:57,526 TopMenuPage.java(24)  - TopMenuPage Instantiated
+INFO  [main]:15 Apr 2020 12:22:57,534 SummerDressesPage.java(25)  - SummerDressesPage Instantiated
+INFO  [main]:15 Apr 2020 12:22:57,537 CartPage.java(17)  - CartPage Instantiated
+INFO  [main]:15 Apr 2020 12:22:57,546 Steps.java(44)  - Opening URL in browser
+INFO  [main]:15 Apr 2020 12:23:00,589 Steps.java(47)  - Home Page title : My Store
+INFO  [main]:15 Apr 2020 12:23:00,591 Steps.java(53)  - mainMenuItem : Dresses
+INFO  [main]:15 Apr 2020 12:23:00,818 TopMenuPage.java(36)  - Hovered on Dresses Menu
+INFO  [main]:15 Apr 2020 12:23:00,820 Steps.java(59)  - Sub Menu item : Summer Dresses
+INFO  [main]:15 Apr 2020 12:23:02,313 TopMenuPage.java(44)  - Clicked on Summer Dresses sub Menu
+INFO  [main]:15 Apr 2020 12:23:02,324 Steps.java(61)  - Summer Dresses Page Title : Summer Dresses - My Store
+INFO  [main]:15 Apr 2020 12:23:02,351 Steps.java(67)  - Total Number of dresses to be added to Cart : 3
+INFO  [main]:15 Apr 2020 12:23:02,351 SummerDressesPage.java(39)  - Adding element : 0
+INFO  [main]:15 Apr 2020 12:23:03,342 SummerDressesPage.java(39)  - Adding element : 1
+INFO  [main]:15 Apr 2020 12:23:03,610 SummerDressesPage.java(39)  - Adding element : 2
+INFO  [main]:15 Apr 2020 12:23:05,573 SummerDressesPage.java(53)  - View Cart button clicked
+INFO  [main]:15 Apr 2020 12:23:05,577 Steps.java(77)  - Cart Page Title : Order - My Store
+INFO  [main]:15 Apr 2020 12:23:05,591 CartPage.java(27)  - Elements in the cart : 3
+INFO  [main]:15 Apr 2020 12:23:07,781 CartPage.java(33)  - Proceed to Check out button clicked
+INFO  [main]:15 Apr 2020 12:23:07,789 Steps.java(89)  - Actual Sign In Page Title : Login - My Store
+INFO  [main]:15 Apr 2020 12:23:07,792 Steps.java(38)  - Inside After Hook
