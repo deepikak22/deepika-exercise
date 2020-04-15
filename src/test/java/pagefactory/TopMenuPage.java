@@ -24,17 +24,11 @@ public class TopMenuPage {
 		logger.info("TopMenuPage Instantiated");
 	}
 	
-	//WebElement dressesMenuElement = webDriver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/div[6]/ul[1]/li[2]/a[1]"));
-
-	
 	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/div[6]/ul[1]/li[2]/a[1]")
 	public WebElement dressesMenuElement;
 	
 	@FindBy(xpath = "/html/body/div/div[1]/header/div[3]/div/div/div[6]/ul/li[2]/ul/li[3]/a")
 	public WebElement summerDressesElement;
-	
-	
-	
 	
 	public void hoverOnMainMenu(String mainMenuItem) {
 		if(mainMenuItem.equalsIgnoreCase("Dresses")) {
@@ -51,6 +45,4 @@ public class TopMenuPage {
 
 		}
 	}
-	
-	
 }

@@ -19,7 +19,7 @@ public class PropertiesReaderUtil {
 		logger.info("Reading properties from properties file into system properties");
 		Properties props = new Properties();
 		try {
-			props.load(new FileInputStream(new File("conf/config.properties")));
+			props.load(new FileInputStream(new File("config.properties")));
 			System.getProperties().putAll(props);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

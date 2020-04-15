@@ -8,8 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import webdriver.TestBase;
-
 public class CartPage {
 
 	Logger logger = Logger.getLogger(CartPage.class.getName());

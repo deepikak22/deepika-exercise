@@ -71,22 +71,6 @@ public class Steps {
 		}
 	}
 
-	
-	/*
-	 * @When("I add first item to cart") public void i_add_first_item_to_cart() {
-	 * 
-	 * summerDressesPage.addDressToCart(0);
-	 * summerDressesPage.clickContinueShoppingButton(); }
-	 * 
-	 * @When("I add second item to cart") public void i_add_second_item_to_cart() {
-	 * summerDressesPage.addDressToCart(1);
-	 * summerDressesPage.clickContinueShoppingButton(); }
-	 * 
-	 * @When("I add third item to cart") public void i_add_third_item_to_cart() {
-	 * summerDressesPage.addDressToCart(2);
-	 * summerDressesPage.clickContinueShoppingButton(); }
-	 */
-
 	@When("I click on view cart button")
 	public void i_click_on_view_cart_button() {
 		summerDressesPage.clickViewCartButton();

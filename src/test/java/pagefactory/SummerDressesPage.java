@@ -41,20 +41,15 @@ public class SummerDressesPage {
 		actions.moveToElement(eachSummerDressElement).build().perform();
 		WebElement addToCartButtonElement = eachSummerDressElement
 				.findElement(By.cssSelector("a[title*='Add to cart']"));
-		// WebElement addToCartButtonElement =
-		// wait.until(ExpectedConditions.presenceOfNestedElementLocatedBy(eachSummerDressElement,
-		// By.cssSelector("a[title*='Add to cart']")));
 		addToCartButtonElement.click();
 	}
 
 	public void clickContinueShoppingButton() {
 		continueShoppingButtonElement.click();
-
 	}
 
 	public void clickViewCartButton() {
 		viewCartButtonElement.click();
 		logger.info("View Cart button clicked");
 	}
-
 }
